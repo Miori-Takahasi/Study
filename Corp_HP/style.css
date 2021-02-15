@@ -18,7 +18,7 @@ a:hover {
 .wrap {
 	overflow: hidden;
 }
-
+/*ヘッダー*/
 .header-wrap {
   background-image: url(images/main.png);
   background-repeat: no-repeat;
@@ -33,25 +33,21 @@ a:hover {
   margin: 0 auto;
 }
 
+.header-logo {
+	height: 60px;
+}
+
+/*ヘッダーナビ*/
 .header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 30px;
+	padding-top: 30px;
 
 }
 
 .header-nav ul {
   display: flex;
-}
-
-.header-logo {
-	height: 60px;
-}
-
-img {
-	border: none;
-	vertical-align:  bottom;
 }
 
 .header-nav ul li {
